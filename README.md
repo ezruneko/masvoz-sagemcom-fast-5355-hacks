@@ -4,18 +4,18 @@ Investigación sobre el router Sagemcom F@ST 5355
 
 ## Indice
 
-1. Introducción
-2. Operadores que ofrecen el router
-3. Manuales del router
-4. Firmware
-5. Hardware
-6. Acceso SSH
-7. USB Storage
-8. GPON Password
-9. Configuracón Inicial y actual
-10. Configuración SIP
-11. Contraseña admin
-12. Referencias
+1. [Introducción](#introducci%C3%B3n)
+2. [Operadores que ofrecen el router](#operadores-que-ofrecen-el-router)
+3. [Manuales del router](#manuales-del-router)
+4. [Firmware](#firmware)
+5. [Hardware](#hardware)
+6. [Acceso SSH](#acceso-ssh)
+7. [USB Storage](#usb-storage)
+8. [GPON Password](#gpon-password)
+9. [Configuración Inicial y actual](#configuraci%C3%B3n-inicial-y-actual)
+10. [Configuración SIP](#configuraci%C3%B3n-sip)
+11. [Contraseña admin](#contrase%C3%B1a-admin)
+12. [Referencias](#referencias)
 
 ## Introducción
 
@@ -161,7 +161,7 @@ La contraseña GPON de la fibra esta en hexadecimal. Tendras que usar algun conv
 cp /opt/filesystem2/data/optical_conf.txt /mnt/sda1
 ```
 
-## Configuracón Inicial y actual
+## Configuración Inicial y actual
 
 El xml con la configuración actual se encuentra en XML se encuentra en: /tmp/cfg.xml desconozco porque no lo he probado si algun cambio directo en el xml tras reinicio sobrevive entiendo por la carpeta en la que esta que no, por tanto debe de almacenarse en algun sitio mas que no he localizo aún.
 
@@ -191,9 +191,9 @@ Aún asi por defecto este usuario podemos acceder a el pero tras el primer reini
 2. La contraseña la tenemos que buscar en el bloque del usuario admin. Por ejemplo:
 ```
 <User uid="4">
-<Enable>true</Enable>
-<Login>admin</Login>
-<Password>6b2a8b2864a82a58032a848f87b4a0d5</Password>
+    <Enable>true</Enable>
+    <Login>admin</Login>
+    <Password>6b2a8b2864a82a58032a848f87b4a0d5</Password>
 ```
 3. Como podemos intuir la contraseña no es esta sino es un MD5 de la misma. Al ser numerica es facilmente encontratable en internet buscando en un diccionario para obtener la equivalencia del MD5 con el texto plano. Esta busqueda en Google os la dejo a vosotros.
 
