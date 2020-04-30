@@ -15,6 +15,7 @@ Investigación sobre el router Sagemcom F@ST 5355
 9. [Configuración Inicial y actual](#configuraci%C3%B3n-inicial-y-actual)
 10. [Configuración SIP](#configuraci%C3%B3n-sip)
 11. [Contraseña admin](#contrase%C3%B1a-admin)
+12. [DHCP](#dhcp)
 12. [Referencias](#referencias)
 
 ## Introducción
