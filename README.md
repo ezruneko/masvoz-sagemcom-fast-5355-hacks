@@ -197,6 +197,15 @@ Aún asi por defecto este usuario podemos acceder a el pero tras el primer reini
 ```
 3. Como podemos intuir la contraseña no es esta sino es un MD5 de la misma. Al ser numerica es facilmente encontratable en internet buscando en un diccionario para obtener la equivalencia del MD5 con el texto plano. Esta busqueda en Google os la dejo a vosotros.
 
+## DHCP
+
+Para que en la ventana de DHCP te deje de guardar en la consola de depuracion de tu navegador tienes que escribir los siguientes comandos ya que la GUI del router se encuentra bugueada:
+
+```
+$('#dhcpForm').scope().dhcpForm.$valid=true
+$('#dhcpForm').scope().dhcpForm.$invalid=false
+```
+
 ## Referencias
 - [SAGEMCOM-FAST-5370e-TELIA](https://github.com/wuseman/SAGEMCOM-FAST-5370e-TELIA) Gran investigación sobre otro router no del todo aplicatible ya que en España el firmware ha cambiado, se ha actualizado y se ha personalizado. Pero es tan tan parecido que incluso en el firmware hay ficheros que hablan de felia y townki.
 
