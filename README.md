@@ -2,6 +2,10 @@
 
 Investigación sobre el router Sagemcom F@ST 5355
 
+## Update
+
+Actualmente ya no poseo este router y creo que esta en desuso por las compañias con lo cual no voy a seguir manteniendo la información sobre dicho router.
+
 ## Indice
 
 1. [Introducción](#introducci%C3%B3n)
@@ -208,6 +212,6 @@ $('#dhcpForm').scope().dhcpForm.$invalid=false
 ```
 
 ## Referencias
-- [SAGEMCOM-FAST-5370e-TELIA](https://github.com/wuseman/SAGEMCOM-FAST-5370e-TELIA) Gran investigación sobre otro router no del todo aplicatible ya que en España el firmware ha cambiado, se ha actualizado y se ha personalizado. Pero es tan tan parecido que incluso en el firmware hay ficheros que hablan de felia y townki.
+- [SAGEMCOM-FAST-5370e-TELIA](https://github.com/wuseman/SAGEMCOM-FAST-5370e-TELIA) Gran investigación sobre otro router no del todo aplicatible ya que en España el firmware ha cambiado, se ha actualizado y se ha personalizado. Pero es tan tan parecido que incluso en el firmware hay ficheros que hablan de felia y townki. Actualmente parece que el repositorio ha sido pasado a privado con lo cual no es accesible.
 
 - [Foro Banda Ancha sobre MasMovil](https://bandaancha.eu/foros/extraer-gpon-router-sagemcom-fast-5655v2-1731346) Aqui realmente empecé a ver que decian los usuarios ya que mi idea era poner mi propio router en el domicilio y la imposibilidad o impasividad del servicio tecnico de MasVoz te de lo ayudee en lo necesario para configurar otro router o acceder a una configuración mas avanzada del mismo.
